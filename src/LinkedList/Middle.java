@@ -2,7 +2,7 @@ package LinkedList;
 import java.util.Scanner;
 
 public class Middle {
-    public Node mid(Node head){
+    public  static Node mid(Node head){
         Node slow=head;
         Node fast=head;
         while(fast!=null && fast.next!=null){

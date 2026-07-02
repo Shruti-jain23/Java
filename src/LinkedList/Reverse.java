@@ -3,7 +3,7 @@ package LinkedList;
 import java.util.Scanner;
 
 public class Reverse {
-    public Node rev(Node head){
+    public  static Node rev(Node head){
         if(head==null ||head.next==null) return head;
         Node prev=null;
         Node pres=head;
