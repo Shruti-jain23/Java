@@ -14,6 +14,8 @@ public class NextSmaller {
             right[i]=(stk.isEmpty())? -1:arr[stk.peek()];
             stk.push(i);
         }
+
+
         return right;
     }
 }
