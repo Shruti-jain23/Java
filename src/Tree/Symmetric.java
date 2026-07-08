@@ -4,7 +4,9 @@ import java.util.*;
 public class Symmetric {
     public static boolean issym(TreeNode root){
         Queue<TreeNode> queue=new LinkedList<>();
-        while(root!=null){
+        queue.offer(root.left);
+        queue.offer(root.right);
+        while(!queue.isEmpty()){
             int lvl=queue.size();
             for(int i=0;i<lvl;i++){
                 TreeNode left=queue.poll();
