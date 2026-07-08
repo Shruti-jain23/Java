@@ -6,6 +6,6 @@ public class MaxDepth {
         int left=depth(root.left);
         int right=depth(root.right);
         int max=Math.max(left,right)+1;
-        return max
+        return max;
     }
 }
