@@ -7,6 +7,7 @@ public class LowestCommon {
         TreeNode left=lca(root.left,p,q);
         TreeNode right=lca(root.right,p,q);
         if(left!=null && right!=null) return root;
+        
         return (left==null)? right:left;
     }
 }
