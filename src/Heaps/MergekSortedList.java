@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 
 public class MergekSortedList {
     public static void merge(ListNode[] lists){
-        PriorityQueue<ListNode> pq=new PriorityQueue<>();
+        PriorityQueue<ListNode> pq=new PriorityQueue<>((a,b)->a.val-b.val);
         for(ListNode temp:lists){
             if(temp!=null)pq.offer(temp);
         }
