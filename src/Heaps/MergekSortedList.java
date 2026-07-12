@@ -2,7 +2,7 @@ package Heaps;
 
 import java.util.PriorityQueue;
 
-public class MergekSortedList {
+/*public class MergekSortedList {
     public static void merge(ListNode[] lists){
         PriorityQueue<ListNode> pq=new PriorityQueue<>((a,b)->a.val-b.val);
         for(ListNode temp:lists){
@@ -18,4 +18,4 @@ public class MergekSortedList {
         }
         return dummy.next;
     }
-}
+}*/
